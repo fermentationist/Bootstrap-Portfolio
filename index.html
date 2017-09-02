@@ -5,67 +5,85 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
   <title>About | Dennis Hodges</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-
-<!-- Bootstrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
-
+  <div class="container-fluid"
   <header id="masthead">
-    <div class="container">
-
-        
-          <nav class="navbar navbar-default navbar-fixed-top">
-            <a href="index.html" id="logo">Dennis Hodges</a>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+    <div class="containerish">
+      <div class="row">
+        <div class="col-md-12"  
+          <nav class="navbar navbar-default">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><a href="index.html" id="logo">Dennis Hodges</a></a>
+              </div>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">About</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
           </nav>
-      
+        </div>
+      </div>
     </div>
   </header>
-  <div class="row">
-    <div id="main-container" class="container">
-      <section class="main-section">
-        <h1>About Me</h1>
 
-        <img src="assets/images/moi.png" class="auth-image" alt="Dennis Hodges">
+    <div class="row">
+      <div class="col-sm-12 col-sm-offset-0 col-md-7 col-md-offset-1"  
+        <div id="main-container" class="containerish">
 
-        <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
+          <section class="main-section">
+            <h1>About Me</h1>
 
-        <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
+            <img src="assets/images/moi.png" class="auth-image" alt="Dennis">
 
-      </section>
+            <p>I am a web developer and maker of cool stuff living and working in Chicago.</p>
 
-      <section class="sidebar">
-        <div id="connect">
-          <h2>Connect with Me</h2>
+            <p>When I'm not writing code, solving problems, or experimenting, I like to spend my time enjoying this beautiful city with my amazing wife and our two year old son.</p>
 
-          <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-          <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-          <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-        </div>
-      </section>
+            <p>Together, we enjoy travelling and trying new restaurants and breweries (we have visited more than 70 breweries and brewpubs across the United States and abroad!) At home, I love to brew fine ales and lagers of my own design, which are served from a custom draft system I devised and built.</p>
+
+          </section>
+      </div>
+      <div class="col-sm-12 col-sm-offset-0 col-md-3 col-md-offset-1">
+          <section class="sidebar">
+            <div id="connect">
+              <h2>Connect with Me</h2>
+
+              <a href="https://github.com/fermentationist" target="_blank"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+              <a href="https://www.linkedin.com/in/dennis-hodges-459769141/" target="_blank"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+              <a href="https://stackoverflow.com/users/8355688/fermentationis" target="_blank"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+            </div>
+        </section>
+      </div>
     </div>
-  </div>
+
   <footer>
-    <div class="container">
-      Copyright &copy; 2017 Dennis Hodges
+    <div class="row">
+      <div class="col-md-12">
+        <div class="container">
+          Copyright &copy; 2017 Dennis Hodges
+        </div>
+      </div>
     </div>
   </footer>
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </div>
 </body>
 
 </html>
