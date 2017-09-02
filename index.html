@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About | Dennis Hodges</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!--   <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   
 
@@ -36,13 +36,15 @@
   </header>
 
     <div class="row">
-      <div class="col-sm-12 col-sm-offset-0 col-md-7 col-md-offset-1">
-        <div id="main-container" class="container">
-
+      <div class="col-sm-12 col-sm-offset-0 col-md-7">
+        <div id="main-container" class="panel panel-default panel-info">
+          <div class="panel-body">
           <section class="main-section">
-            <h1>About Me</h1>
+            <div class="panel-heading">
+              <h1 class="panel-title">About Me</h1>
+            </div>
 
-            <img src="assets/images/moi.png" class="auth-image" alt="Dennis">
+            <img src="assets/images/moi.png" class="auth-image" alt="Dennis" height="200px" width="auto">
 
             <p>I am a web developer and maker of cool stuff living and working in Chicago.</p>
 
@@ -51,15 +53,19 @@
             <p>Together, we enjoy travelling and trying new restaurants and breweries (we have visited more than 70 breweries and brewpubs across the United States and abroad!) At home, I love to brew fine ales and lagers of my own design, which are served from a custom draft system I devised and built.</p>
 
           </section>
+        </div>
       </div>
-      <div class="col-sm-12 col-sm-offset-0 col-md-3 col-md-offset-1">
+      </div>
+      <div class="col-sm-12 col-sm-offset-0 col-md-3">
           <section class="sidebar">
-            <div id="connect">
+            <div id="connect" class="panel panel-default">
+            <div class="panel-body">
               <h2>Connect with Me</h2>
 
               <a href="https://github.com/fermentationist" target="_blank"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
               <a href="https://www.linkedin.com/in/dennis-hodges-459769141/" target="_blank"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
               <a href="https://stackoverflow.com/users/8355688/fermentationis" target="_blank"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+            </div>
             </div>
         </section>
       </div>
@@ -68,8 +74,10 @@
   <footer>
     <div class="row">
       <div class="col-md-12">
-        <div class="container">
+        <div class="panel panel-default">
+        <div class="panel-body">
           Copyright &copy; 2017 Dennis Hodges
+        </div>
         </div>
       </div>
     </div>
