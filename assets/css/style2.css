@@ -8,6 +8,11 @@ a img{
 	width:auto;	
 }
 
+a img.project {
+	height:auto;
+	width:150px;
+}
+
 p {
 	line-height:20px;
 	padding-top:0px;
