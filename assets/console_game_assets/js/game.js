@@ -252,7 +252,7 @@ const consoleGame = {
 			}
 		});
 		const scriptTag = document.createElement("script");
-		scriptTag.src = `assets/js/${filename}`;
+		scriptTag.src = `assets/console_game_assets/js/${filename}`;
 		scriptTag.type = "text/javascript";
 		body.prepend(scriptTag);
 		return setTimeout(() => consoleGame.describeSurroundings(), 500);	
