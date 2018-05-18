@@ -2,7 +2,7 @@ const mapKey = (function (){
 	const MapCell = {
 		name: "Nowhere",
 		hideSecrets: false,
-		description: "You find yourself in a non-descript, liminal, non-place– a locational limbo. That, or it is so boring that you have already forgotten what it looks like. Either way, nothing of interest is likely to ever happen here.",
+		description: "You find yourself in a non-descript, non-place. Nothing of interest is likely to ever happen here.",
 		hiddenEnv: [],
 		visibleEnv: [],
 		get env (){
