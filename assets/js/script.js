@@ -1,6 +1,6 @@
 console.clear();
 const greeting = "\n\nWelcome, thanks for finding us. Type a command to play.\n\n"
-((greeting) => return greeting;)();
+((greeting) => {return greeting;});
 let queryMode = false;
 let history = [];
 let position = {
